@@ -48,11 +48,8 @@
 ## 🧩 一行代码能力扩展
 ```markdown
 [Ability("Heal")]
-
 public class HealAbility : IUnitAbility
-
 {
-    
     public string AbilityId => "Heal";
 
     public void Initialize(IUnit unit) { }
