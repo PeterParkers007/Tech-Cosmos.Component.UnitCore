@@ -1,6 +1,6 @@
 # 🎯 UnitCore - 模块化单位实体系统
 
-**属于 [Tech-Cosmos](https://github.com/Tech-Cosmos) 技术宇宙**
+**属于 [Tech-Cosmos](https://github.com/PeterParkers007/Tech-Cosmos.git) 技术宇宙**
 
 [![Unity 版本](https://img.shields.io/badge/Unity-2022.3%2B-000000?style=flat-square&logo=unity)](https://unity.com)
 [![许可证: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
