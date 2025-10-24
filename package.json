@@ -2,7 +2,7 @@
   "name": "com.tech-cosmos.unitcore",
   "version": "1.0.0",
   "displayName": "Tech-Cosmos Unit Core",
-  "description": "🏗️ A modular, data-driven unit entity system for real-time strategy and tactical games. Part of the Tech-Cosmos ecosystem for industrialized game content creation.",
+  "description": "A modular, data-driven unit entity system for real-time strategy and tactical games. Part of the Tech-Cosmos ecosystem for industrialized game content creation.",
   "unity": "2022.3",
   "documentationUrl": "https://github.com/Tech-Cosmos/Tech-Cosmos.Component.UnitCore/blob/main/Documentation~/GettingStarted.md",
   "changelogUrl": "https://github.com/Tech-Cosmos/Tech-Cosmos.Component.UnitCore/releases",
