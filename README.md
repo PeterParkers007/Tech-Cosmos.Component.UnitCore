@@ -34,7 +34,7 @@
 
 1. **通过Unity包管理器:**
    从Git URL添加包:
-   `https://github.com/Tech-Cosmos/Tech-Cosmos.Component.UnitCore.git`
+   `https://github.com/PeterParkers007/Tech-Cosmos.Component.UnitCore.git`
 
 2. **导入示例** 获取开箱即用的使用案例
 
@@ -122,6 +122,6 @@ MIT许可证 - 详见[LICENSE](LICENSE)文件
 
 ---
 
-**属于 [Tech-Cosmos](https://github.com/Tech-Cosmos) 技术宇宙**
+**属于 [Tech-Cosmos](https://github.com/PeterParkers007/Tech-Cosmos.git) 技术宇宙**
 
 *构建更好的游戏，从构建更好的单位开始。*
