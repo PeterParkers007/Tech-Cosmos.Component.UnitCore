@@ -46,7 +46,7 @@
 - 向GameObject添加Unit组件并分配配置
 
 ## 🧩 一行代码能力扩展
-
+```markdown
 [Ability("Heal")]
 
 public class HealAbility : IUnitAbility
@@ -61,6 +61,7 @@ public class HealAbility : IUnitAbility
     
     public void ExecuteHeal() => Debug.Log("执行治疗!");
 }
+```
 ```markdown
 ## 🏗️ 架构概览
 
