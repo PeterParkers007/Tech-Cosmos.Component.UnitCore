@@ -46,10 +46,11 @@
 - 向GameObject添加Unit组件并分配配置
 
 ## 🧩 一行代码能力扩展
-{
-    [Ability("Heal")]
+
+[Ability("Heal")]
 
 public class HealAbility : IUnitAbility
+
 {
     
     public string AbilityId => "Heal";
@@ -60,8 +61,6 @@ public class HealAbility : IUnitAbility
     
     public void ExecuteHeal() => Debug.Log("执行治疗!");
 }
-}
-
 
 ## 🏗️ 架构概览
 
