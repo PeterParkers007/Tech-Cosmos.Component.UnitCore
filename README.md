@@ -61,7 +61,7 @@ public class HealAbility : IUnitAbility
     
     public void ExecuteHeal() => Debug.Log("执行治疗!");
 }
-
+```markdown
 ## 🏗️ 架构概览
 
 graph TB
@@ -75,7 +75,7 @@ graph TB
     D --> I[Health Management]
     E --> J[Health Events]
     E --> K[Combat Events]
-
+```
 ## 📚 核心组件
 
 | 组件 | 职责 | 关键接口 |
