@@ -3,7 +3,7 @@ using UnityEngine;
 using UnitCore.Runtime.Abilities;
 using UnitCore.Runtime.Abilities.Systems;
 using UnitCore.Runtime.Properties;
-using UnitCore.Runtime.Events;  // 确保有这个 using
+using UnitCore.Runtime.Events;
 namespace UnitCore.Runtime.Core
 {
     public class Unit : MonoBehaviour, IUnit
@@ -54,7 +54,7 @@ namespace UnitCore.Runtime.Core
             _eventSystem.Publish(new UnitCreatedEvent(this));
         }
 
-        private void Update()
+        public void UnitUpdate()
         {
             if (!IsAlive) return;
             _abilitySystem?.Update(Time.deltaTime);
