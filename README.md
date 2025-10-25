@@ -33,20 +33,20 @@
 ### 安装
 
 1. **通过Unity包管理器:**
-   从Git URL添加包:
+   **从Git URL添加包:**
    `https://github.com/PeterParkers007/Tech-Cosmos.Component.UnitCore.git`
 
 2. **导入示例** 获取开箱即用的使用案例
 
 ### 基础用法
 
-在Unity编辑器中创建单位配置:
-- 右键 → Create → Tech-Cosmos → Unit → UnitConfig
-- 配置单位属性和能力
-- 向GameObject添加Unit组件并分配配置
+**在Unity编辑器中创建单位配置:**
+- 右键 → **Create** → **Tech-Cosmos** → **Unit** → **UnitConfig**
+- 配置单位**属性**和**能力**
+- 向**GameObject**添加**Unit**组件并分配配置
 
 ## 🧩 一行代码能力扩展
-```markdown
+```csharp
 [Ability("Heal")]
 public class HealAbility : IUnitAbility
 {
@@ -93,29 +93,17 @@ graph TB
 
 ### 构建自定义能力
 
-1. 实现IUnitAbility接口
-2. 添加[Ability("你的能力ID")]特性
-3. 在UnitConfig中添加能力ID
-4. 使用unit.GetAbility<你的能力>()
+1. 实现**IUnitAbility接口**
+2. 添加 **[Ability("你的能力ID")]特性**
+3. 在**UnitConfig**中添加**能力ID**
+4. 使用**unit.GetAbility<你的能力>()**
 
 ### 事件系统使用
-
+```csharp
 unit.EventSystem.Subscribe<HealthChangedEvent>(e => {
     Debug.Log($"生命值: {e.CurrentHealth}");
 });
-
-## 📖 文档
-
-- [快速开始](Documentation~/GettingStarted.md)
-- [架构指南](Documentation~/Architecture.md)
-- [API参考](Documentation~/APIReference.md)
-- [示例](Samples~/BasicUsage/)
-
-## 🤝 贡献
-
-我们欢迎贡献！请参阅:
-- [贡献指南](CONTRIBUTING.md)
-- [行为准则](CODE_OF_CONDUCT.md)
+```
 
 ## 📄 许可证
 
