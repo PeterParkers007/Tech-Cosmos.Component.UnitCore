@@ -17,6 +17,9 @@ namespace UnitCore.Runtime.Abilities.Implementations
         private Coroutine _attackCoroutine;
         private IUnit _currentTarget;
 
+        // 鐢ㄦ埛娉ㄥ唽鐨勬敾鍑婚�昏緫鍥炶皟
+        public System.Action<IUnit, IUnit> OnPerformAttack { get; set; }
+
         public void Initialize(IUnit unit)
         {
             _unit = unit;
@@ -51,16 +54,14 @@ namespace UnitCore.Runtime.Abilities.Implementations
         {
             while (IsAttacking && target != null && target.IsAlive)
             {
-                // 检查是否在攻击范围内
                 if (Vector2.Distance(_unit.Position, target.Position) <= _config.attackRange)
                 {
-                    // 执行攻击
-                    PerformAttack(target);
+                    // 鐩存帴璋冪敤鐢ㄦ埛娉ㄥ唽鐨勬敾鍑婚�昏緫
+                    OnPerformAttack?.Invoke(_unit, target);
                     yield return new WaitForSeconds(_config.attackCooldown);
                 }
                 else
                 {
-                    // 不在范围内，等待一帧
                     yield return null;
                 }
             }
@@ -68,18 +69,12 @@ namespace UnitCore.Runtime.Abilities.Implementations
             StopAttack();
         }
 
-        private void PerformAttack(IUnit target)
-        {
-            Debug.Log($"{_unit.UnitId} 攻击 {target.UnitId}");
-            // 这里可以触发攻击效果、播放动画等
-        }
-
         public void Update(float deltaTime) { }
 
         public void Dispose()
         {
             StopAttack();
+            OnPerformAttack = null; // 娓呯悊鍥炶皟
         }
     }
 }
-
