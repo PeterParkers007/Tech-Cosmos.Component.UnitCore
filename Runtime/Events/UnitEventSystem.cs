@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using UnitCore.Runtime.Core;
-namespace UnitCore.Runtime.Events
+using TechCosmos.UnitCore.Core;
+namespace TechCosmos.UnitCore.Events
 {
     /// <summary>
     /// 通用单位事件系统，支持强类型事件分发

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using UnitCore.Runtime.Core;
+using TechCosmos.UnitCore.Core;
 using UnityEngine;
-namespace UnitCore.Runtime.Properties
+namespace TechCosmos.UnitCore.Properties
 {
     public class UnitPropertySystem
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
-using UnitCore.Runtime.Core;
-namespace UnitCore.Runtime.Abilities.Implementations
+using TechCosmos.UnitCore.Core;
+namespace TechCosmos.UnitCore.Abilities.Implementations
 {
     [Ability("Move")]
     public class MoveAbility : IMoveAbility

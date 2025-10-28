@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnitCore.Runtime.Core;
-namespace UnitCore.Runtime.Abilities.Systems
+using TechCosmos.UnitCore.Core;
+namespace TechCosmos.UnitCore.Abilities.Systems
 {
     public class UnitAbilitySystem
     {

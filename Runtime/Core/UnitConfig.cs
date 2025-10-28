@@ -1,6 +1,6 @@
 using UnityEngine;
-using UnitCore.Runtime.Properties;
-namespace UnitCore.Runtime.Core
+using TechCosmos.UnitCore.Properties;
+namespace TechCosmos.UnitCore.Core
 {
     [CreateAssetMenu(fileName = "UnitConfig", menuName = "Tech-Cosmos/Unit/UnitConfig")]
     public class UnitConfig : ScriptableObject

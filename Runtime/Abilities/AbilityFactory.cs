@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using UnitCore.Runtime.Abilities.Implementations;
+using TechCosmos.UnitCore.Abilities.Implementations;
 using UnityEngine;
 
-namespace UnitCore.Runtime.Abilities
+namespace TechCosmos.UnitCore.Abilities
 {
     public static class AbilityFactory
     {

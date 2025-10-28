@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
-using UnitCore.Runtime.Abilities;
-namespace UnitCore.Editor
+using TechCosmos.UnitCore.Abilities;
+namespace TechCosmos.Editor
 {
     public class AbilityDebugger : EditorWindow
     {

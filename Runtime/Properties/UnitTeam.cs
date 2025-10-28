@@ -1,4 +1,4 @@
-namespace UnitCore.Runtime.Properties
+namespace TechCosmos.UnitCore.Properties
 {
     public enum UnitTeam
     {

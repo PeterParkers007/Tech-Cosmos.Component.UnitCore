@@ -1,10 +1,10 @@
 using System;
 using UnityEngine;
-using UnitCore.Runtime.Abilities;
-using UnitCore.Runtime.Abilities.Systems;
-using UnitCore.Runtime.Properties;
-using UnitCore.Runtime.Events;
-namespace UnitCore.Runtime.Core
+using TechCosmos.UnitCore.Abilities;
+using TechCosmos.UnitCore.Abilities.Systems;
+using TechCosmos.UnitCore.Properties;
+using TechCosmos.UnitCore.Events;
+namespace TechCosmos.UnitCore.Core
 {
     public class Unit : MonoBehaviour, IUnit
     {

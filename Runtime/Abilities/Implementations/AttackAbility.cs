@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnitCore.Runtime.Abilities;
-using UnitCore.Runtime.Core;
-namespace UnitCore.Runtime.Abilities.Implementations
+using TechCosmos.UnitCore.Abilities;
+using TechCosmos.UnitCore.Core;
+namespace TechCosmos.UnitCore.Abilities.Implementations
 {
     [Ability("Attack")]
     public class AttackAbility : IAttackAbility

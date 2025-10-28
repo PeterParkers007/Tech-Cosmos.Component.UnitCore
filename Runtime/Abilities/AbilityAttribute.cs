@@ -1,6 +1,6 @@
 using System;
 
-namespace UnitCore.Runtime.Abilities
+namespace TechCosmos.UnitCore.Abilities
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
     public class AbilityAttribute : Attribute

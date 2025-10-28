@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnitCore.Runtime.Core;
-namespace UnitCore.Runtime.Abilities
+using TechCosmos.UnitCore.Core;
+namespace TechCosmos.UnitCore.Abilities
 {
     // 攻击能力接口
     public interface IAttackAbility : IUnitAbility

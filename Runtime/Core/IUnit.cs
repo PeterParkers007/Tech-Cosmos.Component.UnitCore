@@ -1,9 +1,9 @@
 using System;
-using UnitCore.Runtime.Events;
-using UnitCore.Runtime.Properties;
-using UnitCore.Runtime.Abilities;
+using TechCosmos.UnitCore.Events;
+using TechCosmos.UnitCore.Properties;
+using TechCosmos.UnitCore.Abilities;
 using UnityEngine;
-namespace UnitCore.Runtime.Core
+namespace TechCosmos.UnitCore.Core
 {
     public interface IUnit
     {

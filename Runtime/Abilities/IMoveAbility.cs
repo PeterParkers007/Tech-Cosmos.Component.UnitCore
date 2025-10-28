@@ -1,5 +1,5 @@
 using UnityEngine;
-namespace UnitCore.Runtime.Abilities
+namespace TechCosmos.UnitCore.Abilities
 {
     // 移动能力接口
     public interface IMoveAbility : IUnitAbility

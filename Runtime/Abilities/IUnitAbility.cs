@@ -1,5 +1,5 @@
-using UnitCore.Runtime.Core;
-namespace UnitCore.Runtime.Abilities
+using TechCosmos.UnitCore.Core;
+namespace TechCosmos.UnitCore.Abilities
 {
     // 基础能力接口
     public interface IUnitAbility
