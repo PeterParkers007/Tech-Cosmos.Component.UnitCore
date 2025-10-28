@@ -1,8 +1,8 @@
 {
-    "name": "UnitCore.Editor",
-    "rootNamespace": "UnitCore.Editor",
+    "name": "TechCosmos.Editor",
+    "rootNamespace": "TechCosmos.Editor",
     "references": [
-        "UnitCore.Runtime"
+        "TechCosmos.UnitCore"
     ],
     "includePlatforms": [
         "Editor"

@@ -1,7 +1,7 @@
 {
-    "name": "UnitCore.Runtime",
-    "rootNamespace": "UnitCore.Runtime",
-    "references": [],
+    "name": "TechCosmos.UnitCore",
+    "rootNamespace": "TechCosmos.UnitCore",
+    "references": ["TechCosmos.ECS"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
