@@ -12,7 +12,6 @@ namespace TechCosmos.UnitCore.Core
 
         // 组件引用
         private Rigidbody2D _rb;
-
         // 核心系统
         private UnitPropertySystem _propertySystem;
         private UnitAbilitySystem _abilitySystem;
@@ -37,7 +36,6 @@ namespace TechCosmos.UnitCore.Core
         public void Initialize(UnitConfig config)
         {
             _config = config;
-
             // 初始化各系统
             _propertySystem = new UnitPropertySystem(config);
             _abilitySystem = new UnitAbilitySystem(this, config);
