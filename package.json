@@ -8,8 +8,7 @@
   "changelogUrl": "https://github.com/Tech-Cosmos/Tech-Cosmos.Component.UnitCore/releases",
   "licensesUrl": "https://github.com/Tech-Cosmos/Tech-Cosmos.Component.UnitCore/blob/main/LICENSE",
   "dependencies": {
-    "com.unity.ugui": "1.0.0",
-    "com.techcosmos.ecs" : "1.0.0"
+    "com.unity.ugui": "1.0.0"
   },
   "keywords": [
     "unit",
